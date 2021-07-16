@@ -1,0 +1,33 @@
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff; 
+    --humanbodybg:  linear-gradient(169.12deg, #1C5EAC -36.44%, #298BFF 171.16%);
+}
+
+body {
+  height: 100vh;
+}
+button {
+    background:var(--blue);
+    border-radius: 20px;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid purple; */
+  background: var(--logo)
+}
+.humanbody {
+  background: var(--humanbodybg);
+}
+
+#__nuxt {
+  height: 100%;
+}
+#__layout {
+  height: 100%;
+}
+.default {
+  height: 100%;
+}
